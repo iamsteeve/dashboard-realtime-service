@@ -1,28 +1,40 @@
 {
   "name": "dashboard-realtime-service",
-  "version": "0.1.0",
-  "private": true,
+  "version": "0.0.1",
+  "description": "Dashboard para monitorear objetos en tiempo real con firebase",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "type-check": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iamsteeve/dashboard-realtime-service.git"
+  },
+  "author": "Steeve Luis Angel Torres Agustin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/iamsteeve/dashboard-realtime-service/issues"
+  },
+  "homepage": "https://github.com/iamsteeve/dashboard-realtime-service#readme",
   "dependencies": {
-    "@material-ui/core": "^3.5.1",
+    "@material-ui/core": "^3.6.0",
     "@material-ui/icons": "^3.0.1",
-    "@types/classnames": "^2.2.6",
-    "@types/recharts": "^1.1.1",
+    "@types/react-jss": "^8.6.0",
+    "@types/styled-jsx": "^2.2.7",
+    "@zeit/next-typescript": "^1.1.1",
+    "jss": "^9.8.7",
+    "next": "^7.0.2",
     "react": "^16.6.3",
     "react-dom": "^16.6.3",
-    "react-scripts-ts": "3.1.0",
-    "recharts": "^1.4.1"
-  },
-  "scripts": {
-    "start": "react-scripts-ts start",
-    "build": "react-scripts-ts build",
-    "test": "react-scripts-ts test --env=jsdom",
-    "eject": "react-scripts-ts eject"
+    "react-jss": "^8.6.1"
   },
   "devDependencies": {
-    "@types/jest": "^23.3.9",
-    "@types/node": "^10.12.9",
-    "@types/react": "^16.7.6",
-    "@types/react-dom": "^16.0.9",
+    "@types/next": "^7.0.5",
+    "@types/react": "^16.7.7",
+    "@types/react-dom": "^16.0.10",
     "typescript": "^3.1.6"
   }
 }
